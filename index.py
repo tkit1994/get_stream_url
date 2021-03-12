@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "hello"
+    return "This is the main page"
 
 
 @app.route('/douyv/<rid>')
